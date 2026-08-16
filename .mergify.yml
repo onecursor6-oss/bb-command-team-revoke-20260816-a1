@@ -1,0 +1,10 @@
+commands_restrictions:
+  queue:
+    conditions:
+      - sender = @oc5-mergify-bb-260810/bb-command-team-revoke-20260816-a1
+
+queue_rules:
+  - name: default
+    queue_conditions: []
+    merge_conditions:
+      - label = BB_OWNER_NEVER_MERGE_Q7N4
